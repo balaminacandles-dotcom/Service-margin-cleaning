@@ -1,0 +1,15 @@
+# The Service Margin — prelaunch static site
+# No build, billing integration, payment processor, or paid assets.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    X-Robots-Tag = "noindex, nofollow"
+
+# Disallow public search indexing while seller/legal setup is incomplete.
