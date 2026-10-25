@@ -1,6 +1,6 @@
 {
   "site": "The Service Margin — Cleaning Edition",
-  "release": "2026-10-25-lemon-squeezy-research-v2",
+  "release": "2026-10-25-manual-redeploy-request-v3",
   "checkout_provider": "lemon-squeezy",
   "checkout_enabled": false,
   "payment_collection": "off",
@@ -11,5 +11,8 @@
   "source": "https://github.com/balaminacandles-dotcom/Service-margin-cleaning",
   "research_form_available_in_source": true,
   "research_form_live_submissions_verified": false,
-  "netlify_deploy_verified": false
+  "netlify_deploy_verified": false,
+  "deploy_trigger": "GitHub main commit",
+  "requested_at_date": "2026-10-25",
+  "note": "GitHub source updated to request automatic Netlify rebuild if this exact repository is linked. Netlify deployment not independently verified."
 }
