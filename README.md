@@ -23,6 +23,14 @@ The owner selected **Lemon Squeezy** for the proposed $49 one-time digital downl
 - Only [`checkout-settings.js`](checkout-settings.js) controls the provider and final shareable URL; do not publish private download files in GitHub.
 - The public website is https://regal-caramel-74ca51.netlify.app; **live deployment is not independently verified** with the available tools. If one-click Netlify deployment cloned the repo, connect the production project to **this exact repository** for GitHub updates to deploy.
 
+## Free prelaunch demand-validation form
+
+The website now includes a short **anonymous three-question cleaning-owner survey** at [`research.html`](research.html) and a [success page](feedback-thanks.html). It collects no names, email addresses or financial information. Public privacy language explains the form and Netlify technical processing.
+
+**Activation needed in site owner's Netlify dashboard:** select the actual site → **Forms → Enable form detection**, then trigger a fresh production redeploy of `main`. The site must be linked to **this GitHub repository**. Netlify scans static HTML at deploy time; otherwise the form might not accept/store submissions. Test one voluntary submission and check **Forms → cleaning-quote-research → Verified submissions** (or Spam). Review usage on the Free plan to avoid exhausting available allowance. No paid services required.
+
+No form submissions, visitors or customers have been verified yet. Do not collect any personal information in the form and do not misrepresent feedback as sales.
+
 ## What is inside?
 
 - `index.html` — responsive landing page, free cleaning quote calculator, and disabled purchase CTA.
