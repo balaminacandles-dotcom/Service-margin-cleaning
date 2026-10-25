@@ -46,8 +46,8 @@ Create one *digital-download* product, not a service or subscription:
 ## Step 3 — Test fulfillment before going live
 
 - Confirm downloadable package includes 5 core editable files and the read-me, all open successfully.
-- Use **test mode** to complete an end-to-end test checkout and confirm buyer email, receipt, and secure delivery link actually work. Never use a real card for a test and never simulate a successful paid order in marketing.
-- Check both desktop and mobile purchase links, order confirmation, file access, and customer-support contact visibility.
+- Use **test mode** to test checkout and confirm the test receipt and order record. **Lemon Squeezy disables file downloads for test-mode purchases**, so this does NOT verify the buyer can access the file. Inspect the uploaded ZIP separately, and once live activation and owner approval are complete, conduct a controlled legitimate live verification of file access without authorizing any unapproved financial action. Never use a real card for test-mode checkout and never simulate a successful paid order in marketing.
+- Check both desktop and mobile checkout links, order confirmation, and customer-support contact visibility. **Live secure file download needs a separate post-activation check** because test-mode file downloads are disabled.
 - Check live mode product is not accidentally configured as a subscription; $49 charged exactly once.
 - Verify no secret checkout API keys, payout data, or customer emails are added to the public GitHub repository.
 
