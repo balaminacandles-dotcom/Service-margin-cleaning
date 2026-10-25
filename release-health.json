@@ -1,6 +1,6 @@
 {
   "site": "The Service Margin — Cleaning Edition",
-  "release": "2026-10-25-lemon-squeezy-prelaunch-v1",
+  "release": "2026-10-25-lemon-squeezy-research-v2",
   "checkout_provider": "lemon-squeezy",
   "checkout_enabled": false,
   "payment_collection": "off",
@@ -8,5 +8,8 @@
   "product_price_usd": 49,
   "paid_deliverables_public": false,
   "purpose": "Public deployment sync check. This does not verify checkout or sales.",
-  "source": "https://github.com/balaminacandles-dotcom/Service-margin-cleaning"
+  "source": "https://github.com/balaminacandles-dotcom/Service-margin-cleaning",
+  "research_form_available_in_source": true,
+  "research_form_live_submissions_verified": false,
+  "netlify_deploy_verified": false
 }
