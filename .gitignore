@@ -1,0 +1,11 @@
+# Never commit paid deliverables or customer data
+paid-product/
+private/
+customer-data/
+*.xlsx
+*.docx
+*.zip
+*.pdf
+.env
+.env.*
+.DS_Store
